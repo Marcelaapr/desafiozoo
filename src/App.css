@@ -4,15 +4,23 @@
   box-sizing: border-box;
 }
 body {
+  background-color: rgb(103, 167, 103);
   text-align: center;
   
 }
 
 h1 {
-  font-size: px;
+  font-size: 100px;
   color: green;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 3px 3px 6px black;
 }
+
+img {
+height: 500px;
+border-radius: 50%;
+
+}
+
 ul {
   display: flex;
   justify-content: center;
@@ -23,6 +31,7 @@ li {
   
 }
 p {
+  font-size: 30px;
   width: 50%;
   margin: auto;
 }
